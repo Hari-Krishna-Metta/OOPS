@@ -1,0 +1,21 @@
+#super class/parent class/Base class
+#child class/sub class
+#parent class data should not be private to inherent in its child classes
+
+#include<bits/stdc++.h>
+using namespace std;
+class Animal{
+    public:
+    int age;
+};
+
+class dog : public Animal{
+    public:
+    int eat(){
+        cout<<"eating";
+    }
+};
+int main() {
+    dog d1;
+    cout<<d1.age;
+}

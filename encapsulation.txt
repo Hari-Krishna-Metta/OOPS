@@ -1,0 +1,2 @@
+#In class data members and member functions are encapsulated.so, we can say it is as example of encapsulation.
+#just make data members to private for perfect encapsulation
